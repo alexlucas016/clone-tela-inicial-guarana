@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;1,500;1,900&family=Kanit:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde: #00873e;
+    --color-um: #808080;
+    --color-dois: black;
+    --color-tres: #ffffff;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Redes sociais */
+
+.redes-sociais {
+    height: 5vh;
+    width: 100vw;
+    background-color: var(--verde);
+    color: var(--color-tres);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logos {
+    margin-right: 200px;
+    cursor: pointer;
+}
+
+.redes-sociais i {
+    margin-right: 25px;
+}
+
+
+/* Header */
+
+header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 35%;
+    margin-left: 180px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+    margin-left: -430px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color-dois);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header button {
+    margin-right: 200px;
+    padding: 7px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--verde);
+    color: var(--color-tres);
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.list li:hover {
+    text-decoration: underline;
+    color: #00873e;
+}
+
+button:hover {
+    background-color: #15904f;
+}
+
+
+/* Texto */
+
+main {
+    height: 85vh;
+    width: 100vw;
+    background-image: url(../img/banner-guarana.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.text-title {
+    margin-top: 200px;
+    color: var(--color-tres);
+    font-size: 80px;
+    font-family: 'Kanit', sans-serif;
+    line-height: 1;
+}
+
+.text p {
+    color: var(--color-um);
+}
+
+
